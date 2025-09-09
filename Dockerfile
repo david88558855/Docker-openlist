@@ -22,3 +22,4 @@ WORKDIR /app/openlist
 
 # 容器启动时运行的命令
 ENTRYPOINT ["/app/openlist/openlist"]
+CMD ["server"]
