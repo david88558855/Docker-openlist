@@ -1,4 +1,4 @@
-name: Docker-tfcenter-build
+name: Docker-openlist-build
 
 on:
   workflow_dispatch:
@@ -22,7 +22,7 @@ env:
   #命名空间
   NAMESPACE: haoxuan8855
   #镜像名称
-  IMAGE: tfcenter
+  IMAGE: openlist
 
 jobs:
   build-1: #流程1
